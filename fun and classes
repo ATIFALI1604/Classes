@@ -1,0 +1,423 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "3d483b4a-34b1-462c-bdf6-f7584f9574d2",
+   "metadata": {},
+   "source": [
+    "# Atif Ali\n",
+    "# SP25-BBD-021"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "fbdf023d-f5d4-4815-9529-8518c69f5911",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "farhan 20 2005\n"
+     ]
+    }
+   ],
+   "source": [
+    "class person:\n",
+    "    def __init__(self,age, name, city):\n",
+    "        self.name= name\n",
+    "        self.age= age\n",
+    "        self.city=city\n",
+    "    def perz(self):\n",
+    "        print(f\"{self.age} {self.name} {self.city}\")\n",
+    "my_personz=person('farhan',20,'2005')\n",
+    "my_personz.perz()\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "efa999a2-4e9e-492f-aab5-c7a5f9cc2a23",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "farhan 20 2005\n"
+     ]
+    }
+   ],
+   "source": [
+    "class person:\n",
+    "    def __init__(self,age, name, city):\n",
+    "        self.name= name\n",
+    "        self.age= age\n",
+    "        self.city=city\n",
+    "    def perz(self):\n",
+    "        print(f\"{self.age} {self.name} {self.city}\")\n",
+    "my_personz=person('farhan',20,'2005')\n",
+    "my_personz.perz()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "3d634de2-1037-4cd3-9b01-32dcd6ef9132",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "farhan 20 2005\n"
+     ]
+    }
+   ],
+   "source": [
+    "class person:\n",
+    "    def __init__(self,age, name, city):\n",
+    "        self.name= name\n",
+    "        self.age= age\n",
+    "        self.city=city\n",
+    "    def perz(self):\n",
+    "        print(f\"{self.age} {self.name} {self.city}\")\n",
+    "my_personz=person('farhan',20,'2005')\n",
+    "my_personz.perz()\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "8b508669-e3d7-43c1-8d06-521376e96c63",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "audi A4 1998\n"
+     ]
+    }
+   ],
+   "source": [
+    "class car:\n",
+    "    def __init__(self,make,model,year):\n",
+    "        self .make= make\n",
+    "        self .model=  model\n",
+    "        self .year=year\n",
+    "    def carz(self):\n",
+    "        print(f\"{self.make} {self.model} {self. year}\")\n",
+    "my_car=car('audi' , 'A4','1998')\n",
+    "my_car.carz()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "82b48f1a-2671-48ca-a5d6-f52d69dd98d6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "area 9852.0576\n",
+      "circ 351.8592\n"
+     ]
+    }
+   ],
+   "source": [
+    "class circle:\n",
+    "    def __init__(self,radius):\n",
+    "        self .radius = radius \n",
+    "        self .pi=  3.1416\n",
+    "    def area(self):\n",
+    "        area=self.pi * (self.radius**2)\n",
+    "        print ('area',area)\n",
+    "    def circ (self):\n",
+    "        circ = self.pi*self.radius*2\n",
+    "        print('circ',circ)\n",
+    "cr = circle(56)\n",
+    "cr.area()\n",
+    "cr.circ()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "f0364311-cdbf-4177-98ca-4752b2cac502",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "money make love tittle rich poor\n"
+     ]
+    }
+   ],
+   "source": [
+    "class book:\n",
+    "    def __init__(self,title,author,publication_year):\n",
+    "        self.title=title \n",
+    "        self.author= author\n",
+    "        self.publication_year=publication_year\n",
+    "    def bk(self):\n",
+    "        print(f\"{self.title} {self.author} {self.publication_year}\")\n",
+    "my_bookz=book('money make','love tittle','rich poor')\n",
+    "my_bookz.bk()\n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "c63f7230-9f7a-493f-be03-2b1537a83b45",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "area 2520\n",
+      "w 5040\n"
+     ]
+    }
+   ],
+   "source": [
+    "class rectangle :\n",
+    "    def __init__(self,length,width ):\n",
+    "        self .length = length\n",
+    "        self .width = width\n",
+    "        self .pi=  3.1416\n",
+    "    def area(self):\n",
+    "        area=self.length * self.width\n",
+    "        print ('area',area)\n",
+    "    def w (self):\n",
+    "        w = self.length*self.width*2\n",
+    "        print('w', w )\n",
+    "cr = rectangle(56,45)\n",
+    "cr.area()\n",
+    "cr.w()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "9bc1c6af-591e-42d9-9599-8ef36c317f36",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "farhan 20 lahore\n"
+     ]
+    }
+   ],
+   "source": [
+    "class person:\n",
+    "    def __init__(self,name,roll_num,mark):\n",
+    "        self.name= name\n",
+    "        self.roll_num=roll_num \n",
+    "        self.mark=mark\n",
+    "    def per(self):\n",
+    "        print(f\"{self.name} {self.roll_num} {self.mark}\")\n",
+    "my_personz=person('farhan',20,'lahore')\n",
+    "my_personz.per()\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "02978625-65b8-400a-83ec-7d58a4ac355f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "john 40000 developer\n"
+     ]
+    }
+   ],
+   "source": [
+    "class employee:\n",
+    "    def __init__(self, name, salary, designation):\n",
+    "        self.name = name\n",
+    "        self.salary = salary\n",
+    "        self.designation = designation\n",
+    "    def show(self):\n",
+    "        print(f\"{self.name} {self.salary} {self.designation}\")\n",
+    "\n",
+    "emp1 = employee(\"john\", 40000, \"developer\")\n",
+    "emp1.show()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "794fcb5d-7cac-4bcf-a8de-0862361bd560",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Deposited: 500 New Balance: 1500\n",
+      "Withdrawn: 200 New Balance: 1300\n"
+     ]
+    }
+   ],
+   "source": [
+    "class bank:\n",
+    "    def __init__(self, name, account_number, balance):\n",
+    "        self.name = name\n",
+    "        self.account_number = account_number\n",
+    "        self.balance = balance\n",
+    "    def deposit(self, amount):\n",
+    "        self.balance += amount\n",
+    "        print(f\"Deposited: {amount} New Balance: {self.balance}\")\n",
+    "    def withdraw(self, amount):\n",
+    "        if amount > self.balance:\n",
+    "            print(\"Insufficient balance\")\n",
+    "        else:\n",
+    "            self.balance -= amount\n",
+    "            print(f\"Withdrawn: {amount} New Balance: {self.balance}\")\n",
+    "\n",
+    "b1 = bank(\"alice\", \"123456\", 1000)\n",
+    "b1.deposit(500)\n",
+    "b1.withdraw(200)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 25,
+   "id": "2e3adcb1-2abb-4d4d-a5bd-640325c164c1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "78.5\n",
+      "24\n",
+      "6.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "class shape:\n",
+    "    def area(self):\n",
+    "        pass\n",
+    "\n",
+    "class circle(shape):\n",
+    "    def __init__(self, radius):\n",
+    "        self.radius = radius\n",
+    "    def area(self):\n",
+    "        print(3.14 * self.radius * self.radius)\n",
+    "\n",
+    "class rectangle(shape):\n",
+    "    def __init__(self, length, width):\n",
+    "        self.length = length\n",
+    "        self.width = width\n",
+    "    def area(self):\n",
+    "        print(self.length * self.width)\n",
+    "\n",
+    "class triangle(shape):\n",
+    "    def __init__(self, base, height):\n",
+    "        self.base = base\n",
+    "        self.height = height\n",
+    "    def area(self):\n",
+    "        print(0.5 * self.base * self.height)\n",
+    "\n",
+    "c = circle(5)\n",
+    "c.area()\n",
+    "\n",
+    "r = rectangle(4, 6)\n",
+    "r.area()\n",
+    "\n",
+    "t = triangle(3, 4)\n",
+    "t.area()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "39297118-b038-47e8-83af-a58627315bea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tommy says woof\n",
+      "kitty says meow\n",
+      "browny says moo\n"
+     ]
+    }
+   ],
+   "source": [
+    "class animal:\n",
+    "    def __init__(self, name):\n",
+    "        self.name = name\n",
+    "    def sound(self):\n",
+    "        pass\n",
+    "\n",
+    "class dog(animal):\n",
+    "    def sound(self):\n",
+    "        print(f\"{self.name} says woof\")\n",
+    "\n",
+    "class cat(animal):\n",
+    "    def sound(self):\n",
+    "        print(f\"{self.name} says meow\")\n",
+    "\n",
+    "class cow(animal):\n",
+    "    def sound(self):\n",
+    "        print(f\"{self.name} says moo\")\n",
+    "\n",
+    "d = dog(\"tommy\")\n",
+    "d.sound()\n",
+    "\n",
+    "c = cat(\"kitty\")\n",
+    "c.sound()\n",
+    "\n",
+    "cw = cow(\"browny\")\n",
+    "cw.sound()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "25f6ee24-008f-4d4a-8ad6-90adc1fa3d83",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
